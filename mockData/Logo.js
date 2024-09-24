@@ -1,0 +1,1 @@
+export const Logo = "https://marketplace.canva.com/EAGN6tjw2w8/1/0/1600w/canva-orange-and-yellow-kitchen-food-logo-2G4Q5SFCJ28.jpg"

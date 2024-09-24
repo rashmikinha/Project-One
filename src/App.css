@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.logo{
+    line-height: 0;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+}
+.page-width{max-width: 1600px;margin-right: auto;margin-left: auto ;}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #ffae42, transparent);
+    padding:10px ;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.nav{min-width: 40%;}
+.nav-container li{
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-container li:hover{
+    text-decoration: underline;
+}
+.restrolist-container{
+    display: flex;
+    overflow-x: auto;
+}
+.restrolist-container::-webkit-scrollbar {
+    display: none;
+}
+.restrolist-container{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.rostrocard-container img{
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+.sort{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.sort button{
+    padding: 10px 60px;
+    border: none;
+    background: linear-gradient(45deg, black, transparent);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
